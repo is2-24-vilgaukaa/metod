@@ -1,0 +1,470 @@
+/*цвет фона*/
+body { background-color: #123; }
+
+/*шрифт и цвет*/
+p, h1, h2, h3, h4, h5, span, a {
+font-family: 'Montserrat', sans-serif;
+color: white;
+}
+
+/*размер текста*/
+p { font-size: 18px; }
+
+/*расположение заголовков по середине*/
+h1, h2, h3, h4, h5 {text-align: center;}
+
+/*фон шапки*/
+.header {
+overflow: hidden;
+background-color: #72cbaa;
+padding: 10px 20px;
+}
+
+/*выравнивание шапки*/
+.main-heading {
+max-width: 800px;
+text-align: center;
+margin: auto;
+}
+
+/*размер лого в шапке*/
+.header img { width: 50px; }
+
+/*стиль для ссылок в шапке*/
+.header a {
+float: left;
+color: rgb(255, 255, 255);
+text-align: center;
+padding: 12px;
+text-decoration: none;
+font-size: 18px;
+line-height: 45px;
+border-radius: 4px;
+}
+
+/*расположение ссылок в правой части экрана*/
+.header-right {
+float: right;
+display: flex;
+align-items: center;
+}
+
+/*стиль для выплывающего заголовка*/
+.box {
+animation: slide-in 1000ms;
+background-color: #72cbaa;
+height: 50px;
+margin: 20px auto;
+}
+
+/*выплывающий заголовок (анимация)*/
+@keyframes slide-in {
+from {transform: translateX(-100%);}
+to {transform: translateX(0%);}
+}
+
+/*информационный блок*/
+.infoBlock {
+background: url(../picture/fon.jpg);    
+padding: 15px;
+text-indent: 30px;
+}
+
+/*красная строка*/
+.infoBlock p, .servicesP {
+text-indent: 30px;
+}
+
+/*выравнивание таблицы (покупка/аренда)*/
+.infoApartments {
+width: 100%;
+text-align: center;
+}
+
+/*зазмер изображений (покупка/аренда)*/
+.shares img {
+width: 580px;
+height: 380px;  
+border-radius: 10px;
+transition: 1s;
+}
+
+/*плавное увеличение изображение при наведении*/
+.shares img:hover {
+transform: scale(1.05);
+}
+
+/*стиль для кнопки*/
+.infoApartments button, .servicesTable button, .request, .delete {
+border-radius: 10px;
+width: 300px;
+height: 30px;  
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+background-color: #72cbaa;
+color: white;
+transition: 1s;
+border-color: aliceblue;
+}
+
+/*стиль для кнопки при наведении*/
+.infoApartments button:hover, .servicesTable button:hover, .request:hover, .delete:hover {
+background-color: #ffffff;
+color: #72cbaa;
+border-color: #72cbaa;
+}
+
+/*задний фон для формы*/
+.contacts {
+background: url(../picture/img.jpg);
+background-size: 100%;
+text-align: center;
+}
+
+/*цвет заголовка в форме*/
+.contacts h2 {
+color: black;
+}
+
+/*стиль для текстовых полей в форме*/
+.contacts input, select, .container input {
+border-radius: 10px;
+width: 900px;
+height: 50px;
+margin: 5px;
+font-family: 'Montserrat', sans-serif;
+}
+
+/*стиль для кнопки в форме*/
+.contacts button, .container button  {
+border-radius: 10px;
+width: 500px;
+height: 40px;
+margin: 5px;
+background-color: #72cbaa;
+font-family: 'Montserrat', sans-serif;
+color: white;
+border-color: white;
+font-size: 18px;
+transition: 1s;
+}
+
+/*стиль для кнопки в форме при наведении*/
+.contacts button:hover, .container button:hover {
+background-color: #389271;  
+}
+
+/*цвет подвала*/
+.footer {background-color: rgb(9, 19, 28);}
+
+/*отступ для текста в подвале*/
+.footer p {
+margin-left: 20px;
+}
+
+/*размер иконок в подвале*/
+.footer img {
+width: 50px;
+height: 50px;
+padding: 20px;
+}
+
+/*выравнивание таблицы*/
+.footerTable {
+width: 100%;
+text-align: center;
+}
+
+/*размер ячейки в подвале*/
+.footerTable td {
+width: 500px;
+}
+
+/*слайдер (стиль для изображений)*/
+.container_slider_css{
+width: 100%;
+height: 450px; 
+overflow: hidden; 
+position: relative;
+}
+
+/*скорость показа*/
+.photo_slider_css{
+position: absolute; 
+animation: round 16s infinite; 
+opacity: 0; 
+width: 100%
+}
+
+/*анимация*/
+@keyframes round { 25%{opacity:1} 40%{opacity:0}}
+img:nth-child(1){animation-delay:12s}
+img:nth-child(2){animation-delay:8s}
+img:nth-child(3){animation-delay:4s}
+
+/*задний фон таблицы с преимуществами*/
+.plusesTable {
+width: 100%;
+text-align: center;
+margin-top: 30px;
+background: url(../img/fon.jpg);
+padding: 20px;
+}
+
+/*иконки (преимущества)*/
+.plusesTable img {
+animation: grow-and-shrink 2000ms;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+/*анимация иконок*/
+@keyframes grow-and-shrink {
+0% {transform: scale(1);}
+100% {transform: scale(1.09);}
+}
+
+/*ограничение блока с текстом (описание преимущества)*/
+.description {
+width: 500px;
+}
+
+/*стиль текста (описание деятельности)*/
+.activity p {
+font-size: 20px;
+text-indent: 30px; 
+}
+
+/*стиль для теста в виде списка*/
+.dignities p {
+background-color: #38927138;
+font-size: 20px;
+padding: 10px;
+border-radius: 10px;
+text-align: center;
+}
+
+/*задний фон*/
+.plusesTable, .mortgageDescription {
+background: url(../picture/fon.jpg);   
+}
+
+/*выравнивание по центру*/
+.mortgageImg {
+text-align: center;
+}
+
+/*стиль для изображений*/
+.mortgageImg img {
+margin: 20px;
+transition: 1s;
+}
+
+/*красная строка*/
+.mortgageDescription p {
+text-indent: 30px; 
+}
+
+/*задний фон для блока*/
+.container {
+background: url(../picture/img.jpg);     
+text-align: center;
+}
+
+/*цвет для текста*/
+.container span {
+color: #123;   
+}
+
+/*расположение текста*/
+.lake {
+display: inline-block;
+position: relative;
+}
+
+/*высветвление фото при наведении*/
+.lake:before {
+background-color: rgba(0, 0, 0, 0.475);
+content: ""; /*для появления белого фона при наведении*/
+height: 100%;
+opacity: 0;
+position: absolute;
+width: 100%;
+z-index: 2;
+border-radius: 20px;
+}
+
+/*прозрачность*/
+.lake:hover:before {
+opacity: 0.6;
+}
+
+/*появление текста на фото*/
+.lake:after {
+font-family: 'Montserrat', sans-serif;  
+color: rgb(255, 255, 255);
+content: attr(alt);
+display: block;
+font-size: 16px;
+opacity: 0;
+padding: 0 3%;
+position: absolute;
+top: 50%;
+width: 94%;
+z-index: 3;
+}
+
+/*появление текста*/
+.lake:hover:after {
+opacity: 1;
+-webkit-transform: scale(1) translateY(-50%);
+transform: scale(1) translateY(-50%);
+}
+
+/*плавное появление текста*/
+.lake:after {
+-webkit-transition: all 350ms ease-in-out;
+transition: all 350ms ease-in-out;
+}
+
+/*выравниание по центру*/
+.apartmentsInfo {
+text-align: center;
+}
+
+/*стиль для изображений*/
+.apartmentsInfo img {
+border-radius: 20px;
+margin: 10px;
+width: 450px;
+height: 320px;
+}
+
+/*фон для поисковой строки*/
+.search {
+background: url(../picture/fon.jpg); 
+text-align: right;   
+}
+
+/*стиль для текстового поля*/
+.search input {
+border-radius: 10px;
+width: 300px;
+height: 30px;
+margin: 5px;
+font-family: 'Montserrat', sans-serif;  
+}
+
+/*стиль для кнопки*/
+.search button, .favouritesBtn {
+border-radius: 10px;
+width: 100px;
+height: 30px;
+font-family: 'Montserrat', sans-serif;  
+background-color: #72cbaa;
+color: white;
+border-color: white;
+transition: 1s;
+}
+
+/*кнопка добавить в избранное*/
+.favouritesBtn {
+width: 200px;
+margin-top: 15px;
+}
+
+/*смена цвета при наведении*/
+.search button:hover, .favouritesBtn:hover {
+background-color: white;
+color: #72cbaa;
+}
+
+/*выравнивание по центру*/
+.infosearch, .plusServices {
+text-align: center;
+}
+
+/*стиль для изображений*/
+.infosearch img {
+border-radius: 20px;
+margin: 10px;
+width: 320px;
+height: 220px;
+}
+
+/*стиль для таблицы*/
+.filtrTable, .AppTableFavor {
+text-align: center;
+width: 100%;
+}
+
+/*стиль для изображений*/
+.search img {
+float: left;
+height: 45px;
+margin-left: 20px;
+}
+
+/*стиль для изображений*/
+.plusServices img {
+width: 250px;
+margin: 20px;
+transition: 1s;
+}
+
+/*увеличение изображения при наведении*/
+.plusServices img:hover, .servicesTable img:hover, .mortgageImg img:hover {
+transform: scale(1.05);
+}
+
+/*стиль для таблицы*/
+.servicesTable {
+width: 100%;
+text-align: center;
+background: url(../picture/fon2.jpg); 
+background-size: cover;
+padding: 40px;
+}
+
+/*стиль для изображений*/
+.servicesTable img {
+width: 450px;
+height: 300px;
+border-radius: 20px;
+transition: 1s;
+}
+
+/*стиль для вывода текста из БД*/
+.favouritesAppart p {
+background-color: #38927138;
+font-size: 20px;
+padding: 10px;
+border-radius: 10px;
+}
+
+/*изображение для вкладки избранное*/
+.favouritesAppart img {
+height: 40px;
+margin-right: 10px;
+}
+
+/*стиль для кнопки*/
+.filtr {
+margin: 5px;
+border-radius: 5px;
+background-color: #ffffff;
+border-color: white;
+color: #72cbaa; 
+border-color: #72cbaa;
+font-family: 'Montserrat', sans-serif;  
+width: 100px;
+transition: 1s;
+}
+
+/*стиль для кнопки при наведении*/
+.filtr:hover {
+background-color: #72cbaa; 
+color: white;
+border-color: #ffffff;
+}

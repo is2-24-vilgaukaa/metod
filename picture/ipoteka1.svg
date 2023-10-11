@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="95.595558mm"
+   height="39.519787mm"
+   viewBox="0 0 95.595558 39.519787"
+   version="1.1"
+   id="svg258"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="ipoteka1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview260"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0255231"
+     inkscape:cx="148.7046"
+     inkscape:cy="123.35169"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs255" />
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-54.907558,-95.688335)">
+    <rect
+       style="fill:#72cbaa;fill-opacity:1;stroke:#ffffff;stroke-width:1.001;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2360"
+       width="94.594559"
+       height="38.518787"
+       x="55.408058"
+       y="96.188835"
+       ry="2.7887599" />
+    <rect
+       style="fill:#4f9f81;fill-opacity:1;stroke-width:0.190131"
+       id="rect2621-2"
+       width="80.452705"
+       height="15.871619"
+       x="60.847431"
+       y="110.05389"
+       ry="3.1222854" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.190131"
+       id="rect2621"
+       width="80.452705"
+       height="15.871619"
+       x="60.934971"
+       y="105.78766"
+       ry="3.1222854" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.34247px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Normal';fill:#4f9f81;fill-opacity:1;stroke-width:0.445207"
+       x="68.480247"
+       y="114.91769"
+       id="text2691"
+       transform="scale(0.99414429,1.0058902)"><tspan
+         id="tspan2689"
+         style="fill:#4f9f81;fill-opacity:1;stroke-width:0.445207"
+         x="68.480247"
+         y="114.91769"
+         sodipodi:role="line">Ипотека с господержкой</tspan></text>
+  </g>
+</svg>
